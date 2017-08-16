@@ -4,14 +4,9 @@
   "description": "Tessel project",
   "main": "index.js",
   "dependencies": {
-    "ansi": "^0.3.1",
-    "fs": "0.0.1-security",
-    "hardware-resolve": "^0.1.6",
     "http": "0.0.0",
     "johnny-five": "^0.11.3",
     "os": "^0.1.1",
-    "parse": "^1.10.0",
-    "path": "^0.12.7",
     "query-string": "^4.3.4",
     "t2-cli": "^0.1.7",
     "tessel-av": "^0.19.0",
@@ -22,10 +17,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "www.github.com/tessel/t2-cli",
+  "repository": "www.github.com/parkdy/tessel-bot",
   "keywords": [
-    "Tessel"
+    "Tessel bot"
   ],
   "license": "MIT",
-  "readme": "A bare bones Tessel 2 blinky script."
+  "readme": "A javascript robot that can drive around and take pictures."
 }
